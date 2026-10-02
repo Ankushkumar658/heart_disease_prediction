@@ -4,7 +4,7 @@ import joblib
 
 
 # load saved model,scaler,and excepted columns
-model=joblib.load("knn_heart.pkl")
+model=joblib.load("KNN_heart.pkl")
 scaler=joblib.load("scaler.pkl")
 expected_columns=joblib.load("columns.pkl")
 
